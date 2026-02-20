@@ -11,6 +11,6 @@ def sobre(request):
 
 
 def contato(request):
-    return HttpResponse("Esta é a página Contato.")
+    return render(request, 'recipes/contato.html')
 
 # Create your views here.
